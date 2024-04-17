@@ -8,6 +8,7 @@ import { Products } from "./Components/Products";
 import { ProductCard } from "./Components/ProductCard";
 import { Cart } from "./Components/Cart";
 import { Game } from "./Game/Game";
+import { Error } from "./Components/Error";
 
 export const App = () => {
   const [isAuth, setIsAuth] = useState(false);
@@ -60,6 +61,7 @@ export const App = () => {
         }`}
       >
         <Routes>
+          <Route path="*" element={<Error />} />
           <Route path="/cart" element={<Cart />} />
           <Route
             path="/game"
