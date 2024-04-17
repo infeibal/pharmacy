@@ -44,7 +44,7 @@ export const Registration = () => {
 
       <p className="text-center text-md mt-4">
         Есть аккаунт? <br />
-        <Link to={"/pharmacy"} className="text-blue-500 underline">
+        <Link to={"/"} className="text-blue-500 underline">
           Войти
         </Link>
       </p>

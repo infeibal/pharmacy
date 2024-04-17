@@ -49,7 +49,7 @@ function createField(size) {
 }
 
 export const Game = ({ setGameWinsCount }) => {
-  const size = 10;
+  const size = 4;
   const dimension = new Array(size).fill(null);
 
   const [field, setField] = useState(() => createField(size));
@@ -93,6 +93,8 @@ export const Game = ({ setGameWinsCount }) => {
           alt="restart-img"
           className="duration-500 scale-100 w-6 cursor-pointer hover:scale-110 "
           onClick={() => {
+            setWin(false);
+
             setField(() => createField(size));
             setMask(() => new Array(size * size).fill(Fill));
 

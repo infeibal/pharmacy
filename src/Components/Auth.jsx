@@ -57,7 +57,7 @@ export const Auth = ({ setIsAuth }) => {
 
       <p className="text-center text-md mt-4">
         Не зарегистрированы? <br />
-        <Link to={"pharmacy/registration"} className="text-blue-500 underline">
+        <Link to={"/registration"} className="text-blue-500 underline">
           Зарегистрироваться
         </Link>
       </p>

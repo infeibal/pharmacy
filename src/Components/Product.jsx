@@ -4,7 +4,7 @@ export const Product = ({ item, setCartItems }) => {
   return (
     <div className=" relative ">
       <Link
-        to={`pharmacy/product/${item.id}`}
+        to={`/product/${item.id}`}
         className=" w-[400px] gap-4 border-t-2 border-x-2 border-neutral-200  rounded-t-lg flex flex-col items-center relative"
       >
         <div className="absolute right-4 top-4 flex items-center gap-1">

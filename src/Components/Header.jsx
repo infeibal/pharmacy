@@ -15,7 +15,7 @@ export const Header = ({ setShowCart, userName, setIsAuth, cartItems }) => {
   return (
     <header className="min-h-20 mb-4 mx-auto w-[900px] rounded-b-lg flex justify-center items-center gap-6 bg-white">
       <Link
-        to="/pharmacy"
+        to="/"
         className="text-lg font-semibold flex items-center gap-2 duration-500 hover:bg-neutral-200 px-4 py-2 rounded-lg"
       >
         <img
@@ -52,7 +52,7 @@ export const Header = ({ setShowCart, userName, setIsAuth, cartItems }) => {
         Контакты
       </span>
       <Link
-        to="pharmacy/game"
+        to="/game"
         className="relative text-lg font-semibold flex items-center gap-2 duration-500 hover:bg-neutral-200 px-4 py-2 rounded-lg cursor-pointer"
       >
         <img
@@ -82,7 +82,7 @@ export const Header = ({ setShowCart, userName, setIsAuth, cartItems }) => {
         Корзина
       </span>
       <Link
-        to="pharmacy/profile"
+        to="/profile"
         className="text-lg font-semibold flex items-center gap-2 duration-500 hover:bg-neutral-200 px-4 py-2 rounded-lg"
       >
         <img
