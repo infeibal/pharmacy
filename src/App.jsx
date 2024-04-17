@@ -61,10 +61,10 @@ export const App = () => {
         }`}
       >
         <Routes>
-          <Route path="*" element={<Error />} />
-          <Route path="/cart" element={<Cart />} />
+          {/* <Route path="*" element={<Error />} /> */}
+          <Route path="/pharmacy/cart" element={<Cart />} />
           <Route
-            path="/game"
+            path="/pharmacy/game"
             element={[
               <Header
                 setShowCart={setShowCart}
@@ -77,7 +77,7 @@ export const App = () => {
             ]}
           />
           <Route
-            path="/"
+            path="/pharmacy"
             element={
               isAuth ? (
                 [
@@ -95,9 +95,9 @@ export const App = () => {
               )
             }
           />
-          <Route path="/registration" element={<Registration />} />
+          <Route path="/pharmacy/registration" element={<Registration />} />
           <Route
-            path="/profile"
+            path="/pharmacy/profile"
             element={[
               <Header
                 setShowCart={setShowCart}
@@ -116,7 +116,7 @@ export const App = () => {
             ]}
           />
           <Route
-            path="/product/:id"
+            path="/pharmacy/product/:id"
             element={[
               <Header
                 userName={isAuth}
