@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/pharmacy/static/css/main.7e32bf4e.css",
-    "main.js": "/pharmacy/static/js/main.b28a2cd9.js",
+    "main.js": "/pharmacy/static/js/main.997bd1ea.js",
     "index.html": "/pharmacy/index.html",
     "main.7e32bf4e.css.map": "/pharmacy/static/css/main.7e32bf4e.css.map",
-    "main.b28a2cd9.js.map": "/pharmacy/static/js/main.b28a2cd9.js.map"
+    "main.997bd1ea.js.map": "/pharmacy/static/js/main.997bd1ea.js.map"
   },
   "entrypoints": [
     "static/css/main.7e32bf4e.css",
-    "static/js/main.b28a2cd9.js"
+    "static/js/main.997bd1ea.js"
   ]
 }
